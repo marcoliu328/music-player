@@ -1,0 +1,62 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 100vh;
+    gap: 10px;
+    background-color: #141414;
+}
+
+.input-field {
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    text-indent: 10px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    border-color: black;
+    background-color: white;
+    outline:none;
+}
+
+.songResults {
+    overflow-y: auto;
+    justify-content: center;
+}
+
+.player {
+    margin-top: auto;
+}
+
+.search-result {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.search-result:hover {
+    cursor: pointer;
+    background-color: #383838;
+}
+
+.track-title {
+    color: white;
+}
+
+.lyrics {
+    text-align: center;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 0.9em;
+}
+
+::-webkit-scrollbar-track {
+    background: #141414
+}
+
+::-webkit-scrollbar-thumb {
+    background: #383838
+}
